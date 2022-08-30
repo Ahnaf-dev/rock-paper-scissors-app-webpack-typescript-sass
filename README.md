@@ -1,3 +1,11 @@
+Site: https://melodic-gumdrop-dd3b58.netlify.app/
+
+## Features
+
+- Bundled JS with Webpack.
+- TypeScript used for coding
+- CSS Class Based Animations
+
 # Frontend Mentor - Rock, Paper, Scissors
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
