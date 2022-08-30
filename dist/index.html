@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors App</title>
+    <script defer src="/dist/bundle.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container display-header">
+        <h1 class="display-header__text">
+          ROCK<br />
+          PAPER<br />
+          SCISSORS
+        </h1>
+        <div class="display-header__display">
+          <p class="display-header__display__text--hl">Score</p>
+          <p class="display-header__display__text">0</p>
+        </div>
+      </div>
+    </header>
+    <section class="game-section">
+      <div class="game__body">
+        <img
+          class="game__body-triangle"
+          src="./images/bg-triangle.svg"
+          alt="background of traingle"
+        />
+        <div
+          data-rps="r"
+          class="game__body__lg-circle game__body__lg-circle--rock"
+        >
+          <span class="picked-message"></span>
+          <div class="game__body__sm-circle">
+            <img src="./images/icon-rock.svg" alt="logo of rock" />
+          </div>
+        </div>
+        <div
+          data-rps="p"
+          class="game__body__lg-circle game__body__lg-circle--paper"
+        >
+          <span class="picked-message"></span>
+
+          <div class="game__body__sm-circle">
+            <img src="./images/icon-paper.svg" alt="logo of paper" />
+          </div>
+        </div>
+        <div
+          data-rps="s"
+          class="game__body__lg-circle game__body__lg-circle--scissor"
+        >
+          <span class="picked-message"></span>
+          <div class="game__body__sm-circle">
+            <img src="./images/icon-scissors.svg" alt="logo of scissor" />
+          </div>
+        </div>
+        <div class="grey-bg"></div>
+        <div class="play-again">
+          <span></span>
+          <a class="play" href="#">Play Again</a>
+          <a class="reset" href="#">Reset Score</a>
+        </div>
+      </div>
+    </section>
+    <div class="rules"><span>Rules</span></div>
+    <div class="rules-overlay">
+      <h2>Rules</h2>
+      <img src="./images/image-rules.svg" alt="image of rules" />
+      <img
+        class="close-overlay"
+        src="./images/icon-close.svg"
+        alt="logo of close"
+      />
+    </div>
+  </body>
+</html>
